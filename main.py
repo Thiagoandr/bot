@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 TOKEN = ""  #tirei o token, vou esconder ela de forma formal em outros commits
 bot = telebot.TeleBot(TOKEN)
 
-
 def buscar_livros_anna(termo):
  
     url = "https://annas-archive.org/search"
